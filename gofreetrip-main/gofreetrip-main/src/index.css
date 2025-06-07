@@ -1,0 +1,17 @@
+@import url('../public/css/bootstrap.min.css');
+@import url('../public/css/meanmenu.css');
+@import url('../public/css/style.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add your custom styles below */
+.react-datepicker-wrapper {
+    width: 100% !important;
+}
+.modal-content {
+    z-index:1111;
+}
+.content.content-two {
+    padding: 160px 0 0;
+}
